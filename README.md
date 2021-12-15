@@ -47,7 +47,7 @@ Two options are provided the first one is link and second one thats click me tha
 
 ## Api's
 [Maps](https://developers.google.com/maps/documentation/)
-[Weather](https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/weatherdata/)
+[Weather](https://www.visualcrossing.com/weather-api)
 
 ## References
 [Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/)

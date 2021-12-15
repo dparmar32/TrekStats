@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+x <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -33,7 +33,7 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <!-- Google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -70,7 +70,7 @@
     <header>
       <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <!-- <div class="container-fluid"> -->
-            <img class="logo" src="./images/brandLogo.png" alt="logo" />
+            <img class="logo" src="./assets/images/brandLogo.png" alt="logo" />
 
           <!-- sets brand name on top of the nav bar -->
           <a class="navbar-brand" href="https://dparmar32.github.io/TrekStats/">
@@ -108,6 +108,9 @@
                 >
               </li>
             </ul>
+            <!-- temporary search bar for google places api -->
+            <input id="enter_text" placeholder="Enter a place" type="text"/>
+
             <!-- Deals with the search bar and the search button -->
             <form class="d-flex">
               <input
@@ -254,13 +257,16 @@
           <div class="feature-box col-lg-4">
             <i class="icon fas fa-utensils fa-4x"></i>
             <h3 class="feature-title">Restaurant</h3>
+            <button class="btn btn-danger" id="fetch-button">
+            Click Me
+          </button>
             <p>Thinks you like to eat.</p>
           </div>
 
           <div class="feature-box col-lg-4">
             <i class="icon fas fa-globe-americas fa-4x"></i>
             <h3 class="feature-title">Things to Do</h3>
-            <p>Advanture in the location.</p>
+            <p>Adventure in the location.</p>
           </div>
 
           <div class="feature-box col-lg-4">
@@ -285,7 +291,7 @@
             <!-- https://previews.123rf.com/images/bbtreesubmission/bbtreesubmission1702/bbtreesubmission170202709/72443821-sceneries-of-a-countryside-illustration.jpg -->
             <img
               class="testimonial-image"
-              src="images/pic1.png"
+              src="./assets/images/pic1.png"
               alt="pic1-profile"
             />
             <em>Ibn Battuta</em>
@@ -300,7 +306,7 @@
             <!-- https://media.gettyimages.com/photos/horseshoe-bend-at-sunset-picture-id1048931984?s=2048x2048 -->
             <img
               class="testimonial-image"
-              src="images/pic2.png"
+              src="./assets/images/pic2.png"
               alt="pic2-profile"
             />
             <em> Lewis Carroll</em>
@@ -325,5 +331,6 @@
       </div>
     </section>
   </body>
-  <script src="script.js"></script>
+  <script src="./assets/js/restaurant.js"></script>
+  <script src="/assets/js/places_api.js"></script>
 </html>

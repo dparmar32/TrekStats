@@ -47,6 +47,7 @@ Two options are provided the first one is link and second one thats click me tha
 
 ## Api's
 [Maps](https://developers.google.com/maps/documentation/)
+[Weather]()
 
 ## References
 [Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/)

@@ -1,4 +1,4 @@
-x <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -64,197 +64,51 @@ x <!DOCTYPE html>
   <body>
     <section id="title">
         <div class="container-fluid">
-
-
-    
-    <header>
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <!-- <div class="container-fluid"> -->
+          <!-- Nav Bar -->
+          <nav class="navbar navbar-expand-lg navbar-dark">
             <img class="logo" src="./assets/images/brandLogo.png" alt="logo" />
 
-          <!-- sets brand name on top of the nav bar -->
-          <a class="navbar-brand" href="https://dparmar32.github.io/TrekStats/">
-            TrekStats</a
-          >
-          <!--collapse navbar options when screen shrinks  -->
-          <button
+            <a class="navbar-brand" href="https://dparmar32.github.io/TrekStats/">
+              TrekStats</a
+            >
+            <button
             class="navbar-toggler"
             type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarCollapse"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
             aria-expanded="false"
-            aria-lebel="toggle navigation"
+            aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-
-          <div class="navbar-collapse collapse" id="navbarCollapse" style>
-            <ul class="navbar-nav me-auto mb-2 mb-md-0">
-              <li class="navitem">
-                <!-- <a
-                  class="flex-sm-fill text-sm-center nav-link active"
-                  aria-current="page"
-                  href="#"
-                >
-                  Home</a
-                > -->
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home</a>
               </li>
-              <!-- <li class="navitem">
-                <a class="nav-link" aria-current="page" href="#">Sign in</a>
-              </li> -->
-              <!-- <li class="navitem">
-                <a class="nav-link active" aria-current="page" href="#">
-                  Home</a
-                >
-              </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="./restaurant.html">Restaurant</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./things-to-do.html">Things to Do</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./weather.html">Weather</a>
+              </li>
             </ul>
-            <!-- temporary search bar for google places api -->
-            <!-- <input id="enter_text" placeholder="Enter a place" type="text"/> -->
-
-            <!-- Deals with the search bar and the search button -->
-            <!-- <form class="d-flex">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-primary" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav> -->
-    </header>
-    <!-- </div> -->
-</section>
-
-    <main>
-      <!-- <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="myCarousel"
-            data-bs-sildes-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="myCarousel"
-            data-bs-sildes-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="myCarousel"
-            data-bs-sildes-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <svg
-              class="bd-placeholder-img"
-              width="100%"
-              height="100%"
-              xmlns="http://www.w3.org/2000/svg"
-              aria-hidden="true"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <rect width="100%" height="100%" fill="#777" />
-            </svg>
-            <div class="container">
-              <div class="carousel-caption text-start">
-                <h1>Example headline.</h1>
-                <p>
-                  Some representative placeholder content for the first slide of
-                  the carousel.
-                </p>
-                <p>
-                  <a class="btn btn-lg btn-primary" href="#">Sign up today</a>
-                </p>
-              </div>
             </div>
-          </div> -->
-          <div class="carousel-item">
-            <svg
-              class="bd-placeholder-img"
-              width="100%"
-              height="100%"
-              xmlns="http://www.w3.org/2000/svg"
-              aria-hidden="true"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <rect width="100%" height="100%" fill="#777" />
-            </svg>
 
-            
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>Another example headline</h1>
-                <p>
-                  Some respressentative placeholder content for the second slide
-                  of the carousel.
-                </p>
-                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-              </div>
-            </div>
+          </nav>
           </div>
-          <div class="carousel-item">
-            <svg
-              class="bd-placeholder-img"
-              width="100%"
-              height="100%"
-              xmlns="http://www.w3.org/2000/svg"
-              aria-hidden="true"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <rect width="100%" height="100%" fill="#777" />
-            </svg>
-            <div class="container">
-              <div>
-                <h1>One more for good measure</h1>
-                <p>
-                  Some representative placeholder content for the thrid slide of
-                  this carousel
-                </p>
-                <p>
-                  <a class="btn btn-lg btn-primary" href="#">Browse gallery</a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#myCarousel"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#myCarousel"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </main>
+    </section>
+
     
   <!-- Features -->
     <section id="features">
       <div class="container-fluid">
         <div class="row">
-          <div class="feature-box col-lg-4">
+          <div class="feature-box col-lg-4" id="restaurant">
             <a href="restaurant.html">
             <i class="icon fas fa-utensils fa-4x"></i>
             </a>
@@ -265,7 +119,7 @@ x <!DOCTYPE html>
             <p>Thinks you like to eat.</p>
           </div>
 
-          <div class="feature-box col-lg-4">
+          <div class="feature-box col-lg-4" id="ttd">
             <a href="things-to-do.html">
             <i class="icon fas fa-globe-americas fa-4x"></i>
             </a>
@@ -273,13 +127,15 @@ x <!DOCTYPE html>
             <p>Adventure in the location.</p>
           </div>
 
-          <div class="feature-box col-lg-4">
+          
+          <div class="feature-box col-lg-4" id="weather">
             <a href="weather.html">
               <i class="icon fas fa-meteor fa-4x"></i>
             </a>
             <h3 class="feature-title">Weather</h3>
             <p>Lets find out the weather for today</p>
           </div>
+
         </div>
       </div>
     </section>
@@ -339,4 +195,5 @@ x <!DOCTYPE html>
   </body>
   <script src="./assets/js/restaurant.js"></script>
   <script src="/assets/js/places_api.js"></script>
+  <script src="./assets/js/things_to_do.js"></script>
 </html>

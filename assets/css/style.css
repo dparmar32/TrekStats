@@ -16,6 +16,13 @@ h6 {
     padding: 7% 15%;
 }
 
+
+/* .form-inline{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 23%;} */
+
 /* Title Section */
 #title {
     background: rgb(27, 36, 0);
@@ -35,7 +42,7 @@ h6 {
 
 .navbar-brand {
     font-family: 'Ubuntu', sans-serif;
-    font-size  : 3.5rem;
+    font-size  : 2.5rem;
     line-height: 1.5;
 }
 
@@ -52,7 +59,7 @@ h6 {
     /* height: 25%; */
     width       : 10%;
     float       : left;
-    margin-right: 30px;
+    margin-right: 10px;
 }
 
 /* Feature Section */
@@ -97,4 +104,75 @@ h6 {
     width        : 10%;
     border-radius: 100%;
     margin       : 20px;
+}
+
+/* .search_btn {
+    margin-left: 43%;
+} */
+
+#wikiLogo {
+    width           : 10%;
+    border-radius   : 100%;
+    /* margin       : 20px; */
+    text-align      : center;
+    display         : block;
+    margin          : auto;
+
+}
+
+/* .submit-btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 14;
+    -moz-border-radius: 14;
+    border-radius: 14px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .submit-btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  } */
+
+.btn {
+    background: #159957;
+    background: -webkit-linear-gradient(to right, #155799, #159957);
+    background: linear-gradient(to right, #155799, #159957);
+    color     : #fff;
+}
+
+.ttd-img {
+    width: 100%;
+}
+
+.resultItem {
+    text-align : center;
+    border     : solid 1px #000000;
+    padding    : 2%;
+    margin-top : 2%;
+    font-weight: 500;
+}
+
+.searchForm {
+    position: absolute;
+    right   : 40%;
+
+}
+
+.d-flex {
+    position: absolute;
+    right   : 40%;
 }

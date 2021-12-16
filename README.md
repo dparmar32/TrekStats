@@ -14,42 +14,34 @@ TrekStats
 
 ## Task
 
-Create a travel application that allows a user to retrive information for travel, weather, ... based on city, state or zipcode.
+Create a travel application that allows a user to retrive information for travel, weather and restaurant based on city.
 
 
 ## User Story
 - [Trello Tool](https://trello.com/b/4SR6qWK6/trekstats)
 
 ```md
-Create an travel application for travelers things to visit based on geographical location.
+Create a travel application that allows a user to retrive information for travel, weather and restaurant based on city name.
 
 ```
 
 
-## Acceptance Criteria
 
-```md
+##  Acceptance Criteria: 
 
-```
-### Technical Acceptance Criteria: 25%
-
-* Satisfies the following code requirements:
 
   * Application uses at least two [server-side APIs](https://coding-boot-camp.github.io/full-stack/apis/api-resources)
 
   * Application uses client-side storage to store persistent data.
-
-  * Application doesn't use JS alerts, prompts, or confirms (uses modals instead).
-
-  * Application uses a CSS framework other than Bootstrap.
 
   * Application is interactive (accepts and responds to user input)
 
  
 ## Tools Used
 - [Trello](https://trello.com/b/4SR6qWK6/trekstats)
-- [Presentation](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit#slide=id.g29f43f0a72_0_10)
+- [Presentation](https://docs.google.com/presentation/d/1iC_-F6MM6VzvH-WGRDveIY-pOAeZAb5NXOpQHV2z8hM/edit?usp=sharing)
 - [Wireframe](https://lucid.app/lucidchart/3d5f8019-4d9a-474b-92d8-6d9f174a7078/edit?invitationId=inv_cd8f6b9c-6806-4e62-a50e-9530671377ac)
+- [Presentation Final](https://www.canva.com/design/DAEyurguEU8/T9M7uVgfqKls0egxr2QwOw/view?utm_content=DAEyurguEU8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 
 ## Deployment
 Two options are provided the first one is link and second one thats click me that will redirect to the page
@@ -63,6 +55,10 @@ Two options are provided the first one is link and second one thats click me tha
 ## Api's
 - [Maps](https://developers.google.com/maps/documentation/)
 - [Weather](https://www.visualcrossing.com/weather-api)
+- [wiki](https://www.mediawiki.org/wiki/API:Main_page)
+- [Restaurant](https://www.yelp.com/developers)
 
 ## References
-[Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
+- [Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
+- [Font Awesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2)
+- [Design](https://www.canva.com/)

@@ -38,7 +38,7 @@ Create a travel application that allows a user to retrive information for travel
 - [Trello](https://trello.com/b/4SR6qWK6/trekstats)
 - [Presentation](https://docs.google.com/presentation/d/1iC_-F6MM6VzvH-WGRDveIY-pOAeZAb5NXOpQHV2z8hM/edit?usp=sharing)
 - [Wireframe](https://lucid.app/lucidchart/3d5f8019-4d9a-474b-92d8-6d9f174a7078/edit?invitationId=inv_cd8f6b9c-6806-4e62-a50e-9530671377ac)
-- [Presentation Final](https://www.canva.com/design/DAEyurguEU8/T9M7uVgfqKls0egxr2QwOw/view?utm_content=DAEyurguEU8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+
 
 ## Deployment
 Two options are provided the first one is link and second one thats click me that will redirect to the page

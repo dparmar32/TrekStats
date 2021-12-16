@@ -1,16 +1,13 @@
+# TrekStats
 
 ## Table of contents
 
-- [Title](#title)
 - [Task](#task)
 - [User Story](#user-story)
 - [Acceptance Criteria](#acceptance-criteria)
 - [Deployment](#deployment)
-- [Api's](#Api's)
+- [Api's](#api's)
 - [References](#references)
-
-## Title
-TrekStats
 
 ## Task
 

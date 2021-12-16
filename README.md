@@ -1,4 +1,4 @@
-# TrekStats
+# <span style="color: green">TrekStats</span>
 
 ## Table of contents
 

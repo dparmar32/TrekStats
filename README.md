@@ -55,7 +55,7 @@ Two options are provided the first one is link and second one thats click me tha
 - [wiki](https://www.mediawiki.org/wiki/API:Main_page)
 - [Restaurant](https://www.yelp.com/developers)
 
-## * TrekStats
+## TrekStats
 ![TrekStats](./assets/images/TrekStats.webm)
 
 ## References

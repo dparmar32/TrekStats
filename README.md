@@ -41,13 +41,8 @@ Create a travel application that allows a user to retrive information for travel
 
 
 ## Deployment
-Two options are provided the first one is link and second one thats click me that will redirect to the page
-- Application deployed to [Github](https://github.com/) : 
-  - https://github.com/dparmar32/TrekStats
-  - [Click Here](https://github.com/dparmar32/TrekStats)
-- Application live GitHub URL submitted link : 
-  - https://dparmar32.github.io/TrekStats/
-  - [Click Here](https://dparmar32.github.io/TrekStats/)
+- [Github](https://github.com/dparmar32/TrekStats)
+- [Deployed application](https://dparmar32.github.io/TrekStats/)
 
 ## Api's
 - [Maps](https://developers.google.com/maps/documentation/)

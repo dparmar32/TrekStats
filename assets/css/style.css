@@ -176,3 +176,8 @@ h6 {
     position: absolute;
     right   : 40%;
 }
+
+#map{
+    height:570px;
+    width:100%;
+}

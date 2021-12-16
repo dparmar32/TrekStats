@@ -58,6 +58,8 @@
       crossorigin="anonymous"
     ></script>
 
+    
+
     <title>TrekStats</title>
   </head>
 
@@ -83,7 +85,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto ">
               <li class="nav-item">
                 <a class="nav-link" href="./index.html">Home</a>
               </li>
@@ -96,15 +98,18 @@
               <li class="nav-item">
                 <a class="nav-link" href="./weather.html">Weather</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./map.html">Map</a>
+              </li>
             </ul>
             </div>
 
           </nav>
           </div>
     </section>
-
     
   <!-- Features -->
+  
     <section id="features">
       <div class="container-fluid">
         <div class="row">
@@ -126,7 +131,6 @@
             <h3 class="feature-title">Things to Do</h3>
             <p>Adventure in the location.</p>
           </div>
-
           
           <div class="feature-box col-lg-4" id="weather">
             <a href="weather.html">
@@ -134,6 +138,14 @@
             </a>
             <h3 class="feature-title">Weather</h3>
             <p>Lets find out the weather for today</p>
+          </div>
+
+          <div class="feature-box col-lg-12" id="travel">
+            <a href="map.html">
+            <i class="icon fas fa-map-marked-alt fa-4x"></i>
+            </a>
+            <h3 class="feature-title">Map</h3>
+            <p>Discover a new destination.</p>
           </div>
 
         </div>
@@ -194,6 +206,6 @@
     </section>
   </body>
   <script src="./assets/js/restaurant.js"></script>
-  <script src="/assets/js/places_api.js"></script>
+  <script src="/assets/js/google_api.js"></script>
   <script src="./assets/js/things_to_do.js"></script>
 </html>

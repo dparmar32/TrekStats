@@ -11,7 +11,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <!--  -->
+    
 
     <!-- Font Awesome -->
     <link
@@ -94,51 +94,16 @@
                   Home</a
                 >
               </li>            
-            </ul>
+            </ul> 
+             <!-- Deals with the search bar and the search button -->
+             <form class="d-flex">
 
-            <!-- Deals with the search bar and the search button -->
-            <form class="d-flex">
-
-            <input type="text" class="form-control me-2" placeholder="Search" id="myInput">
-
-            <button class="btn btn-primary" type="button" onclick="getInputValue();">Search</button>
-
-            </form>
-            </div>
-            </div>
-        </nav>
-        </header>
-        <!-- </div> -->
-    </section>
-    <!-- the DIV that will contain the widget -->
-    <div class="weatherWidget" ></div>
-
-    <script>
-        function getInputValue(){
-            // Selecting the input element and get its value 
-            var inputVal = document.getElementById("myInput").value;
-            console.log(inputVal);
-            window.weatherWidgetConfig =  window.weatherWidgetConfig || [];
-            window.weatherWidgetConfig.push({
-            selector:".weatherWidget",
-            apiKey:"7WAELNPGEDTZCDE8QVRBAE3SJ", //Sign up for your personal key
-            location:inputVal, //Enter an address
-            unitGroup:"us", //"us" or "metric"
-            forecastDays:5, //how many days forecast to show
-            title:inputVal, //optional title to show in the 
-            showTitle:true, 
-            showConditions:true
-        });
-        
-        (function() {
-        var d = document, s = d.createElement('script');
-        s.src = 'https://www.visualcrossing.com/widgets/forecast-simple/weather-forecast-widget-simple.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-        })();
-        }
-       
-    </script>
-
-
-  </body>
+                <input type="text" class="form-control me-2" placeholder="Search" id="myInput">
+    
+                <button class="btn btn-primary" type="button" onclick="getInputValue();">Search</button>
+    
+                </form>
+                </div>
+                </div>
+            </nav>
+            </header>

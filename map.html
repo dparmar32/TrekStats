@@ -33,81 +33,76 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
-   
-    <!-- Script for axios -->
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  <!-- Script for axios -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
   <title>TrekStats</title>
 </head>
 
-<body>
-  <section id="title">
-    <div class="container-fluid">
+  <body>
+    <section id="title">
+      <div class="container-fluid">
 
-      <nav class="navbar navbar-expand-lg navbar-dark ">
-        <img class="logo" src="./assets/images/brandLogo.png" alt="logo" />
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+          <img class="logo" src="./assets/images/brandLogo.png" alt="logo" />
 
-        <a class="navbar-brand" href="https://dparmar32.github.io/TrekStats/">
-          TrekStats</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="./index.html">Home</a>
-            </li>   
-            <li class="nav-item">
-              <a class="nav-link" href="./things-to-do.html">Things to Do</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./weather.html">Weather</a>
-            </li>
-            <li class="nav-item">
+          <a class="navbar-brand" href="https://dparmar32.github.io/TrekStats/">
+            TrekStats</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./things-to-do.html">Things to Do</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./weather.html">Weather</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="./map.html">Map</a>
-            </li>
-          </ul>
-          
-        </div>
+              </li>
+            </ul>
 
-      </nav>
-    </div>
+          </div>
 
-  </section>
+        </nav>
+      </div>
 
-  <!-- CODE HERE -->
-  <div class="container">
-      
-    <div>
-      <h1 class="attr-head text-center" style="color: grey">Enter Desired City To Load Map</h1>
-    </div>
-    <form id="submit-location">
-        <input
-          id="enter_text"
-          class="form-control mr-sm-2"
-          type="search"
-          placeholder="Enter a city"
-          aria-label="Search"
-        />
+    </section>
+
+    <!-- CODE HERE -->
+    <div class="container">
+
+      <div>
+        <h1 class="attr-head text-center" style="color: grey">Enter Desired City To Load Map</h1>
+      </div>
+      <form id="submit-location">
+        <input id="enter_text" class="form-control mr-sm-2" type="search" placeholder="Enter a city"
+          aria-label="Search" />
         <button class="btn btn-primary btn-block" type="submit">Search</button>
       </form>
-    <br>
-      
-    </br>
-    <div id="map"></div>
-    <div class="cardblock" id="geometry"></div>
-  
+      <br>
 
-  <!-- google api -->
-  <script 
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgGkZtN3w9l6EmmjSgcGjvbPME4ILKP0w&libraries=places&callback=initApi"
-    async defer></script>
-</body>
+      </br>
+      <div id="map"></div>
+      <div class="cardblock" id="geometry"></div>
 
-  <!-- Javascript -->
-  <script src="./assets/js/google_api.js"></script>
 
-</body>
+      <!-- google api -->
+      <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgGkZtN3w9l6EmmjSgcGjvbPME4ILKP0w&libraries=places&callback=initApi"
+        async defer></script>
+      <!-- Javascript -->
+      <script src="./assets/js/google_api.js"></script>
+
+  </body>
+
+
 
 </html>
